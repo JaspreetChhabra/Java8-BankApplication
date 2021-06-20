@@ -1,0 +1,46 @@
+
+Consumer (8)
+    public void accept(T)
+
+Consumer<T>, IntConsumer, LongConsumer, DoubleConsumer
+BiConsumer<T,U>, ObjIntConsumer<T>, ObjLongConsumer<T>, ObjDoubleConsumer<T>
+
+Supplier (5)
+    public T get()
+
+Supplier<T>, IntSuppleir, LongSupplier, DoubleSupplier, BooleanSupplier
+
+Predicate  (5)
+    public boolean test(T t)
+    public boolean test(int v)
+
+Predicate<T>, IntPreicate, LongPredicate, DoublePredicate, BiPredicate<T,U>
+
+Function  (17)
+Function<T,R>
+    public R apply(T value)
+    public R apply(int value)
+    public long applyAsLong(int value)
+
+Function<T,R>, IntFunction<R>, LongFunction<R>, DoubleFunction<R>, IntToLongFunction, IntToDoubleFunction, LongToIntFunction, LongToDoubleFunction, DoubleToIntFunction, DoubleToLongFunction, ToIntFunction<T>, ToLongFunction<T>, ToDoubleFunction<T>
+
+BiFunction<T,U,R>, IntBiFunction, LongBiFunction,DoubleBiFunction
+
+UnaryOperator  (4)
+
+UnaryOperator<T>, IntUnaryOperator, LongUnaryOperator, DoubleUnaryOperator
+
+BinaryOperator (4)
+
+BinaryOperator<T>, IntBinaryOperator, LongBinaryOperator, DoubleBinaryOperator
+
+
+
+
+
+
+
+
+
+
+
